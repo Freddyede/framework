@@ -10,7 +10,26 @@
   - [Repository Module](#repository-module)
   - [Utils Module](#utils-module)
 ## Getting Started
-Clone this project with: `git clone https://github.com/Freddyede/framework.git`
+Bienvenue dans **TonFrameworkPHP** – un micro-framework moderne en PHP 8.1+.
+
+### ✅ Prérequis
+
+- PHP 8.1 ou supérieur
+- Composer
+- MySQL ou SQLite (selon configuration)
+- Serveur local (Apache/Nginx ou `php -S`)
+
+---
+
+### 📦 Installation
+
+Clone le dépôt et installe les dépendances :
+
+```bash
+git clone https://github.com/ton-utilisateur/ton-framework-php.git
+cd ton-framework-php
+composer install
+```
 ## Modules
 
 ### Core Module
