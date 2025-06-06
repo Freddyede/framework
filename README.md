@@ -1,6 +1,6 @@
 <p align="center">
   <a href="#" target="_blank">
-    <img src="resources/novaPHP.jpg" style="border-radius: 5% 25%" width="400" alt="PHP Mini Framework Logo">
+    <img src="resources/novaPHP.jpg" width="400" alt="PHP Mini Framework Logo">
   </a>
 </p>
 
