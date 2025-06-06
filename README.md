@@ -2,7 +2,7 @@
 ## Sommaire
 <hr>
 
-- [GettingStarted](#Getting Started)
+- [GettingStarted](#getting-started)
 - [Modules](#Modules)
   - [Core Module](#core-module)
   - [View Module](#view-module)
