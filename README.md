@@ -26,8 +26,8 @@ Bienvenue dans **TonFrameworkPHP** – un micro-framework moderne en PHP 8.1+.
 Clone le dépôt et installe les dépendances :
 
 ```bash
-git clone https://github.com/ton-utilisateur/ton-framework-php.git
-cd ton-framework-php
+git clone https://github.com/Freddyede/framework.git
+cd framework
 composer install
 ```
 ## Modules
