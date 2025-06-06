@@ -10,27 +10,31 @@
   - [Repository Module](#repository-module)
   - [Utils Module](#utils-module)
 ## Getting Started
-Bienvenue dans **TonFrameworkPHP** – un micro-framework moderne en PHP 8.1+.
+Bienvenue dans **framework**, un micro-framework modulaire et léger en PHP 8.1+ conçu pour t’aider à structurer facilement tes applications web sans dépendre d’un gros framework.
+
+---
 
 ### ✅ Prérequis
-
-- PHP 8.1 ou supérieur
-- Composer
-- MySQL ou SQLite (selon configuration)
-- Serveur local (Apache/Nginx ou `php -S`)
+Avant de commencer, assure-toi d’avoir :
+- PHP `^8.1`
+- [Composer](https://getcomposer.org/)
+- Un serveur web (Apache, Nginx ou PHP intégré)
+- Une base de données (MySQL ou SQLite)
 
 ---
 
 ### 📦 Installation
+#### 1. Cloner le dépôt
+`git clone https://github.com/Freddyede/framework.git`
+#### 2. Changer de dossier
+`cd framework`
+#### 3. Installer les dépendances
+`composer install`
 
-Clone le dépôt et installe les dépendances :
-
-```bash
-git clone https://github.com/Freddyede/framework.git
-cd framework
-composer install
-```
+---
 ## Modules
+
+---
 
 ### Core Module
 ### View Module
