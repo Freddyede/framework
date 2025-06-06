@@ -34,7 +34,13 @@ Le but est de fournir une architecture claire, tout en vous laissant libre d’a
 ## 🚀 Démarrer un projet
 
 ```bash
-git clone https://github.com/votre-utilisateur/php-mini-framework.git mon-app
+git clone https://github.com/Freddyede/framework.git
 cd mon-app
+
 composer install
-php -S localhost:8000 -t public
+
+# start server
+nova console server:run
+# stop server
+nova console server:stop
+```
