@@ -1,69 +1,40 @@
-# Frameworks
-## Sommaire
-<hr>
+<p align="center">
+  <a href="#" target="_blank">
+    <img src="resources/novaPHP.jpg" style="border-radius: 5% 25%" width="400" alt="PHP Mini Framework Logo">
+  </a>
+</p>
 
-- [GettingStarted](#getting-started)
-  - [Prérequis](#prerequis)
-  - [Installation](#installation)
-- [Modules](#Modules)
-  - [Core Module](#core-module)
-    - [Commandes](#commandes)
-    - [Entity](#entity)
-    - [Helpers](#helpers)
-    - [Routing](#routing)
-    - [Repository](#repository)
-    - [Exceptions](#exceptions)
-    - [Utilitaires](#utilitaires)
-    - [Views](#views)
-      - [Template Viewers](#template-viewers)
-      - [Views Utilitaires](#views-utilitaires)
-      - [Views Helpers](#views-helpers)
-      - [Views Requested](#views-requested)
-    - [Controllers](#controllers)
-## Getting Started
-Bienvenue dans **framework**, un micro-framework modulaire et léger en PHP 8.1+ conçu pour t’aider à structurer facilement tes applications web sans dépendre d’un gros framework.
+<p align="center">
+  <a href="#"><img src="https://img.shields.io/badge/build-passing-brightgreen.svg" alt="Build Status"></a>
+  <a href="#"><img src="https://img.shields.io/badge/php-8.1%2B-blue" alt="PHP Version"></a>
+  <a href="#"><img src="https://img.shields.io/badge/license-MIT-red" alt="License"></a>
+</p>
 
 ---
 
-### ✅Prerequis
-Avant de commencer, assure-toi d’avoir :
-- PHP `^8.1`
-- [Composer](https://getcomposer.org/)
-- Un serveur web (Apache, Nginx ou PHP intégré)
-- Une base de données (MySQL ou SQLite)
+## À propos de NovaPHP
+
+**NovaPHP** est un micro-framework léger, conçu pour la simplicité, la rapidité et l'apprentissage. Inspiré de Laravel et Symfony, il vous offre une base solide pour construire des applications web modernes **sans dépendance externe**.
+
+Le but est de fournir une architecture claire, tout en vous laissant libre d’adapter chaque couche à vos besoins.
+
+### Principales fonctionnalités
+
+- 🎯 Routeur rapide et simple
+- ⚙️ Conteneur d’injection de dépendances basique
+- 📦 Architecture MVC propre
+- 📁 Chargement automatique des classes PSR-4
+- 🛠 Système de commandes CLI maison
+- 🧪 Tests unitaires simples avec `phpunit`
+- 🔧 Configuration intuitive
+- 🔒 Sécurité à la base (CSRF, validation...)
 
 ---
 
-### 📦Installation
-#### 1. Cloner le dépôt
-`git clone https://github.com/Freddyede/framework.git`
-#### 2. Changer de dossier
-`cd framework`
-#### 3. Installer les dépendances
-`composer install`
+## 🚀 Démarrer un projet
 
----
-## Modules
-
----
-
-### Core Module
-#### Commandes
-#### Entity
-#### Helpers
-#### Routing
-#### Repository
-#### Exceptions
-#### Utilitaires
-
----
-
-#### Views
-##### Template Viewers
-##### Views Utilitaires
-##### Views Helpers
-##### Views Requested
-
----
-
-#### Controllers
+```bash
+git clone https://github.com/votre-utilisateur/php-mini-framework.git mon-app
+cd mon-app
+composer install
+php -S localhost:8000 -t public
