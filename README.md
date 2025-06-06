@@ -3,6 +3,8 @@
 <hr>
 
 - [GettingStarted](#getting-started)
+  - [Prérequis](#prerequis)
+  - [Installation](#installation)
 - [Modules](#Modules)
   - [Core Module](#core-module)
   - [View Module](#view-module)
@@ -14,7 +16,7 @@ Bienvenue dans **framework**, un micro-framework modulaire et léger en PHP 8.1+
 
 ---
 
-### ✅ Prérequis
+### ✅Prerequis
 Avant de commencer, assure-toi d’avoir :
 - PHP `^8.1`
 - [Composer](https://getcomposer.org/)
@@ -23,7 +25,7 @@ Avant de commencer, assure-toi d’avoir :
 
 ---
 
-### 📦 Installation
+### 📦Installation
 #### 1. Cloner le dépôt
 `git clone https://github.com/Freddyede/framework.git`
 #### 2. Changer de dossier
