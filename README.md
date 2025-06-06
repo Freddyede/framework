@@ -7,10 +7,19 @@
   - [Installation](#installation)
 - [Modules](#Modules)
   - [Core Module](#core-module)
-  - [View Module](#view-module)
-  - [Entity Module](#entity-module)
-  - [Repository Module](#repository-module)
-  - [Utils Module](#utils-module)
+    - [Commandes](#commandes)
+    - [Entity](#entity)
+    - [Helpers](#helpers)
+    - [Routing](#routing)
+    - [Repository](#repository)
+    - [Exceptions](#exceptions)
+    - [Utilitaires](#utilitaires)
+    - [Views](#views)
+      - [Template Viewers](#template-viewers)
+      - [Views Utilitaires](#views-utilitaires)
+      - [Views Helpers](#views-helpers)
+      - [Views Requested](#views-requested)
+    - [Controllers](#controllers)
 ## Getting Started
 Bienvenue dans **framework**, un micro-framework modulaire et léger en PHP 8.1+ conçu pour t’aider à structurer facilement tes applications web sans dépendre d’un gros framework.
 
@@ -39,7 +48,22 @@ Avant de commencer, assure-toi d’avoir :
 ---
 
 ### Core Module
-### View Module
-### Entity Module
-### Repository Module
-### Utils Module
+#### Commandes
+#### Entity
+#### Helpers
+#### Routing
+#### Repository
+#### Exceptions
+#### Utilitaires
+
+---
+
+#### Views
+##### Template Viewers
+##### Views Utilitaires
+##### Views Helpers
+##### Views Requested
+
+---
+
+#### Controllers
